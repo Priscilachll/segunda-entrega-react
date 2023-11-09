@@ -1,0 +1,35 @@
+/* styles.css */
+
+.navbar-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  
+  .List-container {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-button {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for navbar buttons */
+  .navbar-button:hover {
+    text-decoration: underline;
+  }
+  
